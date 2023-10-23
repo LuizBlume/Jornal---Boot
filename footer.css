@@ -1,0 +1,139 @@
+footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 2px 0;
+    font-size: 16px;
+    grid-area: f;
+    width: 100%;
+    height: auto;
+}
+
+.ul-footer>ul,
+.ul-footer>li {
+    display: block !important;
+}
+
+.footer-container {
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: #001836;
+}
+
+.footer-logo {
+    width: 180px;
+    height: 180px;
+}
+
+.footer-logo img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+.footer-links {
+    display: block;
+    margin: auto;
+}
+
+.footer-links>ul>li {
+    list-style: none;
+    font-size: 16px;
+}
+
+.footer-links ul li {
+    margin-bottom: 6px;
+}
+
+.footer-links a,
+.footer-sociais a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.2s;
+    font-size: 16px;
+}
+
+.footer-links a:hover,
+.footer-sociais a:hover {
+    color: #3479d4;
+    scale: 1.04;
+}
+
+.footer-sociais a {
+    margin: 0 20px;
+}
+
+.card, .card > img {
+    padding: 10px;
+}
+
+.card > img {
+    border-radius: 30px !important;
+}
+
+.footer-sociais {
+    background-color: #000000;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-sociais img {
+    width: 150px;
+}
+
+
+.footer-bottom {
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+    border-top: 1px solid #555;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
+
+.footer-container ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+ul li a {
+    display: block;
+    padding: 10px 40px;
+    color: #fdfdfd;
+    text-decoration: none;
+    text-align: left;
+    font-size: 16px;
+}
+
+ul li ul.dropdown li {
+    display: block;
+}
+
+ul li ul.dropdown {
+    width: 80%;
+    position: absolute;
+    z-index: 999;
+    display: none;
+    margin-left: 30px;
+    background-color: #01173b;
+}
+
+ul li:hover ul.dropdown {
+    display: block;
+}
+
+ul li ul.dropdown a {
+    opacity: 0.5;
+}
+
+
+ul li ul.dropdown a:hover {
+    opacity: 1;
+    color: #fdfdfd;
+}

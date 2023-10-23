@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.card-group {
+    padding: 50px;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: flex-end !important;
+}
+
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: transparent !important;
+}
+
+.carousel-item > img {
+    max-height: 30% !important;
+}
+
+.navbar {
+    display: flex !important;
+    justify-content: end !important;
+    align-items: center !important;
+}
