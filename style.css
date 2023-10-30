@@ -26,3 +26,15 @@
     justify-content: end !important;
     align-items: center !important;
 }
+
+#anuncio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.anuncio {
+    width: 94.5%;
+    height: 40vh;
+}
